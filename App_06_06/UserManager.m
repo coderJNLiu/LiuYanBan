@@ -32,6 +32,7 @@
 
 - (instancetype)init
 {
+    int a = 1;
     self = [super init];
     if (self) {
         self.afManager = [[AFHTTPRequestOperationManager alloc]init];
